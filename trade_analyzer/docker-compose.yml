@@ -1,0 +1,11 @@
+version: "3"
+services:
+  rstudio:
+    image: rocker/rstudio:latest
+    environment:
+      - PASSWORD=${RSTUDIO_PASSWORD}
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./src:/home/rstudio
+      - ./lib:/usr/local/lib/R/site-library
