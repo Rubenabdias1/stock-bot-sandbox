@@ -1,2 +1,2 @@
 # stock-bot-sandbox
-A sandbox to be used as I experiment with different ecosystems.
+A sandbox to be used to experiment with different ecosystems for a market trading bot.
