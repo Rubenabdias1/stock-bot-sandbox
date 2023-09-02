@@ -50,3 +50,15 @@ rsconnect/
 
 lib/
 .env
+src/.local/
+src/.config/
+src/.cache/
+
+# RENV directories
+library/
+local/
+cellar/
+lock/
+python/
+sandbox/
+staging/
